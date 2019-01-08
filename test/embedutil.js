@@ -20,10 +20,10 @@ describe('Embed util tests', () => {
 	it('Converts a tag to a embed', () => {
 		// it also has a lot of undefined values that assert.deepEqual doesn't like, and there is no reason to remove them aside from tests and looks
 		// just yolo it
-		assert.ok(embedutil.tagToEmbed('{a!ae;--title="test"}').title === 'test');
+		assert.ok(embedutil.tagToEmbed('{a!ae;--title="test"}')[0].title === 'test');
 	});
 
 	it('Prefers "ae" tags to regular tags when convering tag > embed', () => {
-		assert.ok(embedutil.tagToEmbed('{testtag} {a!ae;--title="test"}').title === 'test');
+		assert.ok(embedutil.tagToEmbed('{testtag} {a!ae;--title="test"}')[0].title === 'test');
 	});
 });
