@@ -4,10 +4,6 @@ const filterTrackName = require('../lib/utils/filterTrackName');
 
 describe('util#filterTrackName tests', () => {
 	const YOUTUBE_TEST_DATA = [{
-		description: 'should strip anything in ()',
-		source: 'Billie Eilish - you should see me in a crown (Vertical)',
-		expected: 'Billie Eilish - you should see me in a crown',
-	}, {
 		description: 'should do nothing with clean string',
 		source: 'Track Title',
 		expected: 'Track Title',
