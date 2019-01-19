@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 const assert = require('assert');
 const filterTrackName = require('../lib/utils/filterTrackName');
 
@@ -191,10 +190,6 @@ describe('util#filterTrackName tests', () => {
 		description: 'should remove trailing double quote',
 		source: 'Track Title"',
 		expected: 'Track Title',
-	}, {
-		description: 'should leave single quotes around joined',
-		source: 'Track \'n\' Title',
-		expected: 'Track \'n\' Title',
 	}, {
 		description: 'should remove "(whatever 2/12/18)" string',
 		source: 'Track Title (whatever 2/12/18)',
