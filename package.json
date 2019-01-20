@@ -8,10 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/get-atlas/lib.git"
+    "url": "git+https://github.com/atlasbot/lib.git"
   },
   "bugs": {
-    "url": "https://github.com/get-atlas/lib/issues"
+    "url": "https://github.com/atlasbot/lib/issues"
   },
   "engines": {
     "node": ">=10.0.0"
