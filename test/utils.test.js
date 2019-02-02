@@ -12,11 +12,6 @@ describe('Util tests', () => {
 		assert.equal(utils.cleanSubreddit('askreddit'), 'askreddit');
 	});
 
-	it('correctly compares maps', () => {
-		assert.ok(utils.compareMaps(new Map([['test', 'test']]), new Map([['test', 'test']])) === true);
-		assert.ok(utils.compareMaps(new Map([['test', 'test']]), new Map([['test', 'different']])) === false);
-	});
-
 	it('recognizes toggle keywords', () => {
 		assert.ok(utils.toggleType('disable') === false);
 		assert.ok(utils.toggleType('off') === false);
