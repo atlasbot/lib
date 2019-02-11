@@ -1,6 +1,6 @@
 {
   "name": "atlas-lib",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Functions and utilities shared between the bot and other services.",
   "main": "lib/index.js",
   "scripts": {
