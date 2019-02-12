@@ -1,3 +1,7 @@
+# DEPRECATED
+
+You won't get support, security patches, features or bug fixes if you choose to use this version. If you have questions, join us on Discord - https://atlasbot.xyz/support
+
 # lib
 
 Schemas, functions and general utilities shared between Atlas and it's services. Others are welcome to use this, but changes will be made without notice that may break things.
